@@ -16,6 +16,7 @@
 		661C691C2BB1839600215687 /* NCXChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C691B2BB1839600215687 /* NCXChallengeTests.swift */; };
 		661C69262BB1839600215687 /* NCXChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69252BB1839600215687 /* NCXChallengeUITests.swift */; };
 		661C69282BB1839600215687 /* NCXChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69272BB1839600215687 /* NCXChallengeUITestsLaunchTests.swift */; };
+		661C69372BB1932A00215687 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69362BB1932A00215687 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		661C69212BB1839600215687 /* NCXChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCXChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		661C69252BB1839600215687 /* NCXChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCXChallengeUITests.swift; sourceTree = "<group>"; };
 		661C69272BB1839600215687 /* NCXChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCXChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		661C69362BB1932A00215687 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				661C69042BB1839500215687 /* AppDelegate.swift */,
 				661C69062BB1839500215687 /* SceneDelegate.swift */,
 				661C69082BB1839500215687 /* ViewController.swift */,
+				661C69362BB1932A00215687 /* SwiftUIView.swift */,
 				661C690A2BB1839500215687 /* Main.storyboard */,
 				661C690D2BB1839600215687 /* Assets.xcassets */,
 				661C690F2BB1839600215687 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				661C69092BB1839500215687 /* ViewController.swift in Sources */,
 				661C69052BB1839500215687 /* AppDelegate.swift in Sources */,
+				661C69372BB1932A00215687 /* SwiftUIView.swift in Sources */,
 				661C69072BB1839500215687 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
