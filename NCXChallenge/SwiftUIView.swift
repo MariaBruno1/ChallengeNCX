@@ -7,9 +7,10 @@
 
 import SwiftUI
 
+
 struct SwiftUIView: View {
     var body: some View {
-        TabView{
+        TabView {
                 Text("Tab Content 1")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color(hue: 1.0, saturation: 0.386, brightness: 0.847, opacity: 0.828))
