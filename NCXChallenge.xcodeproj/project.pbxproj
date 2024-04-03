@@ -21,6 +21,10 @@
 		661C69B52BBB48C400215687 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69B42BBB48C400215687 /* CalendarCell.swift */; };
 		661C69B72BBB496000215687 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69B62BBB496000215687 /* CalendarViewController.swift */; };
 		661C69B92BBB4D1F00215687 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69B82BBB4D1F00215687 /* CalendarHelper.swift */; };
+		661C69C72BBCA67000215687 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69C62BBCA67000215687 /* WeeklyViewController.swift */; };
+		661C69C92BBCB41800215687 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69C82BBCB41800215687 /* EventEditViewController.swift */; };
+		661C69CB2BBCB42C00215687 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69CA2BBCB42C00215687 /* EventCell.swift */; };
+		661C69CD2BBCB5A600215687 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69CC2BBCB5A600215687 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		661C69B42BBB48C400215687 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		661C69B62BBB496000215687 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		661C69B82BBB4D1F00215687 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		661C69C62BBCA67000215687 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		661C69C82BBCB41800215687 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		661C69CA2BBCB42C00215687 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		661C69CC2BBCB5A600215687 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,10 @@
 				661C69742BB2CF3800215687 /* TabBarController.swift */,
 				661C69362BB1932A00215687 /* SwiftUIView.swift */,
 				661C690A2BB1839500215687 /* Main.storyboard */,
+				661C69CC2BBCB5A600215687 /* Event.swift */,
+				661C69C82BBCB41800215687 /* EventEditViewController.swift */,
+				661C69CA2BBCB42C00215687 /* EventCell.swift */,
+				661C69C62BBCA67000215687 /* WeeklyViewController.swift */,
 				661C69B62BBB496000215687 /* CalendarViewController.swift */,
 				661C69B82BBB4D1F00215687 /* CalendarHelper.swift */,
 				661C69B42BBB48C400215687 /* CalendarCell.swift */,
@@ -274,11 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				661C69092BB1839500215687 /* ViewController.swift in Sources */,
+				661C69C92BBCB41800215687 /* EventEditViewController.swift in Sources */,
 				661C69B92BBB4D1F00215687 /* CalendarHelper.swift in Sources */,
 				661C69B52BBB48C400215687 /* CalendarCell.swift in Sources */,
+				661C69CD2BBCB5A600215687 /* Event.swift in Sources */,
 				661C69052BB1839500215687 /* AppDelegate.swift in Sources */,
 				661C69372BB1932A00215687 /* SwiftUIView.swift in Sources */,
+				661C69CB2BBCB42C00215687 /* EventCell.swift in Sources */,
 				661C69752BB2CF3800215687 /* TabBarController.swift in Sources */,
+				661C69C72BBCA67000215687 /* WeeklyViewController.swift in Sources */,
 				661C69B72BBB496000215687 /* CalendarViewController.swift in Sources */,
 				661C69072BB1839500215687 /* SceneDelegate.swift in Sources */,
 			);

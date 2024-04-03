@@ -14,7 +14,6 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     @IBOutlet weak var monthLabel: UILabel!
     
-    var selectedDate = Date()
     var totalSquares = [String]()
     
     override func viewDidLoad() {
