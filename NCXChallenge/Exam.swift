@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+import Foundation
+import UIKit
+
 struct Exam {
     var name: String
     var description: String?

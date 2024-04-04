@@ -11,7 +11,7 @@ class ExamDetailVC: UIViewController {
     
     var exam: Exam?
     
-   
+    
     
     @IBOutlet weak var descriptionTextField: UITextField!
     @IBOutlet weak var nameTextField: UITextField!
@@ -31,7 +31,7 @@ class ExamDetailVC: UIViewController {
         //Observers for Keyboard events.
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-
+        
         // Setup after loading the view.
         if let exam = exam {
             nameTextField.text = exam.name
@@ -59,12 +59,10 @@ class ExamDetailVC: UIViewController {
     }
     
     
-    
     @IBAction func textEditingChanged(_ sender: UITextField) {
         updateSaveButtonState()
     }
     
-   
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
             if self.view.frame.origin.y == 0 {
@@ -87,5 +85,4 @@ class ExamDetailVC: UIViewController {
     }
     
 }
-
 
