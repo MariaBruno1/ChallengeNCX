@@ -25,6 +25,13 @@
 		661C69C92BBCB41800215687 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69C82BBCB41800215687 /* EventEditViewController.swift */; };
 		661C69CB2BBCB42C00215687 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69CA2BBCB42C00215687 /* EventCell.swift */; };
 		661C69CD2BBCB5A600215687 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C69CC2BBCB5A600215687 /* Event.swift */; };
+		66D9726D2BBDD57D003A39EF /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9726C2BBDD57D003A39EF /* DietViewController.swift */; };
+		66D972712BBDEDB7003A39EF /* FolicAcid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D972702BBDEDB7003A39EF /* FolicAcid.swift */; };
+		66D972752BBE08AE003A39EF /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D972742BBE08AE003A39EF /* Exam.swift */; };
+		66D972772BBE08C7003A39EF /* Data Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D972762BBE08C7003A39EF /* Data Exam.swift */; };
+		66D9727D2BBE9A7D003A39EF /* ExamTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9727C2BBE9A7D003A39EF /* ExamTableView.swift */; };
+		66D9727F2BBE9A91003A39EF /* ExamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9727E2BBE9A91003A39EF /* ExamCell.swift */; };
+		66D972812BBE9AAC003A39EF /* ExamDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D972802BBE9AAC003A39EF /* ExamDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +74,13 @@
 		661C69C82BBCB41800215687 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
 		661C69CA2BBCB42C00215687 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		661C69CC2BBCB5A600215687 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		66D9726C2BBDD57D003A39EF /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		66D972702BBDEDB7003A39EF /* FolicAcid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolicAcid.swift; sourceTree = "<group>"; };
+		66D972742BBE08AE003A39EF /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		66D972762BBE08C7003A39EF /* Data Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Exam.swift"; sourceTree = "<group>"; };
+		66D9727C2BBE9A7D003A39EF /* ExamTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamTableView.swift; sourceTree = "<group>"; };
+		66D9727E2BBE9A91003A39EF /* ExamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCell.swift; sourceTree = "<group>"; };
+		66D972802BBE9AAC003A39EF /* ExamDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +137,13 @@
 				661C69742BB2CF3800215687 /* TabBarController.swift */,
 				661C69362BB1932A00215687 /* SwiftUIView.swift */,
 				661C690A2BB1839500215687 /* Main.storyboard */,
+				66D9727C2BBE9A7D003A39EF /* ExamTableView.swift */,
+				66D9727E2BBE9A91003A39EF /* ExamCell.swift */,
+				66D972802BBE9AAC003A39EF /* ExamDetailVC.swift */,
+				66D972742BBE08AE003A39EF /* Exam.swift */,
+				66D972762BBE08C7003A39EF /* Data Exam.swift */,
+				66D972702BBDEDB7003A39EF /* FolicAcid.swift */,
+				66D9726C2BBDD57D003A39EF /* DietViewController.swift */,
 				661C69CC2BBCB5A600215687 /* Event.swift */,
 				661C69C82BBCB41800215687 /* EventEditViewController.swift */,
 				661C69CA2BBCB42C00215687 /* EventCell.swift */,
@@ -285,16 +306,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D972812BBE9AAC003A39EF /* ExamDetailVC.swift in Sources */,
+				66D972772BBE08C7003A39EF /* Data Exam.swift in Sources */,
+				66D972752BBE08AE003A39EF /* Exam.swift in Sources */,
 				661C69092BB1839500215687 /* ViewController.swift in Sources */,
 				661C69C92BBCB41800215687 /* EventEditViewController.swift in Sources */,
 				661C69B92BBB4D1F00215687 /* CalendarHelper.swift in Sources */,
 				661C69B52BBB48C400215687 /* CalendarCell.swift in Sources */,
 				661C69CD2BBCB5A600215687 /* Event.swift in Sources */,
 				661C69052BB1839500215687 /* AppDelegate.swift in Sources */,
+				66D9726D2BBDD57D003A39EF /* DietViewController.swift in Sources */,
 				661C69372BB1932A00215687 /* SwiftUIView.swift in Sources */,
+				66D972712BBDEDB7003A39EF /* FolicAcid.swift in Sources */,
 				661C69CB2BBCB42C00215687 /* EventCell.swift in Sources */,
+				66D9727F2BBE9A91003A39EF /* ExamCell.swift in Sources */,
 				661C69752BB2CF3800215687 /* TabBarController.swift in Sources */,
 				661C69C72BBCA67000215687 /* WeeklyViewController.swift in Sources */,
+				66D9727D2BBE9A7D003A39EF /* ExamTableView.swift in Sources */,
 				661C69B72BBB496000215687 /* CalendarViewController.swift in Sources */,
 				661C69072BB1839500215687 /* SceneDelegate.swift in Sources */,
 			);

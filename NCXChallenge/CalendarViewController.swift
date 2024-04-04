@@ -20,6 +20,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         super.viewDidLoad()
         setCellsView()
         setMonthView()
+        
     }
     
     func setCellsView() {

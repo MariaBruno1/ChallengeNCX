@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func buttonPressed(_ sender: Any) {
+        dismiss(animated: true)
+    }
+    
     @IBOutlet weak var nameTextField: UITextField!
     
     @IBOutlet weak var agerangeTextField: UITextField!
@@ -41,7 +45,10 @@ class ViewController: UIViewController {
         agerangePickerView.tag = 1
         trimesterPickerView.tag = 2
     }
+    
 }
+
+
 
 extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
